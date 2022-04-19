@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  golang:
+    build:
+      context: ./
+    image: agnosgoncalves/codeeducation
+    container_name: golang_app
