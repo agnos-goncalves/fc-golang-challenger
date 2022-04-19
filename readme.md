@@ -1,31 +1,15 @@
-## Execute project with dockerhub
+# Execute project with Dockerhub
 
-pull image
-
-``
+### pull image
 docker pull agnosgoncalves/codeeducation
 
-``
-
-execute container
-
-``
+### execute container
 docker run -it --rm agnosgoncalves/codeeducation
 
-``
+# Execute project with Repository Data
 
-## Execute project with repository data
-
-create image golang
-
-``
+###  create image golang
 docker build -t <imagename> .
 
-``
-
-execute container
-
-``
+###  execute container
 docker run -it --rm <imagename>
-
-``
